@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+
+}
+
+body {
+  margin: 0;
+}
+
+menu {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.zona1 {
+  background-color: rgb(32, 32, 32);
+  color: rgb(242, 220, 21);
+  height: 25px;
+
+}
+
+.fa-cart-shopping {
+  float: right;
+  background-color: rgb(32, 32, 32);
+}
+
+.zona-logo {
+  background-color: rgb(85, 85, 85);
+  height: 150px;
+}
+
+.logo {
+  position: relative;
+  left: 50px;
+  top: 10px;
+  width: 200px;
+  height: auto;
+}
+
+.fondo{
+  width: 100%;
+  height: 850px;
+}
+
+.menu1 {
+  position: absolute;
+  width: 1500px;
+  height: 100px;
+  background-color: white;
+  left: 9%;
+  top: 140px;
+}
+
+.menu1  ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  padding: 2.35em;
+  padding-right: 2emimg/ladrillos.jpg
+}
+
+.menu1 > ul > li {
+  display: inline-block;
+  padding-right: 2em;
+  padding-left: 2em;
+}
+
+/* .cuadro {
+  position: relative;
+  left: 35%;
+  background-color: rgba(87, 87, 87, 0.78);
+  width: 500px;
+} */
+
+
+.pie-carrusel {
+  width: 100%;
+  height: auto;
+  background-image: url("img/ladrillos.jpg");
+  color: rgb(187, 187, 187);
+  text-align: center;
+  padding: 3em;
+}
+
+.z-mapa {
+  text-align: center;
+}
+
+.mapa {
+  width: 10em;
+  padding: 0,5em;
+}
+
+.portlnad {
+  padding: 0.5em;
+}
+
+.texto-p {
+  color: rgb(173, 173, 173);
+}
+
+.visit {
+  color: rgb(47, 94, 198);
+}
+
+.telefono {
+  padding: 1em;
+}
+
+.fa-phone {
+  color: rgb(212, 200, 48);
+}
+
+.grid1 {
+  background-color: rgb(193, 193, 193);
+  display: grid;
+  grid-template-columns: 5fr 5fr 5fr;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  padding-left: 3em;
+  padding-right: 3em;
+  text-align: center;
+}
+
+.zonas {
+  padding: 1em;
+}
+
+.check {
+  padding-left: 2em;
+}
+
+.textos-grid1 {
+  color: rgb(112, 112, 112);
+}
+
+
+.grid2 {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+  padding-left: 25em;
+  padding-right: 25em;
+  text-align: center;
+}
+
+.trbajadores {
+  padding: 2em;
+}
+
+.trbajadores img {
+  width: 9.5em;
+}
+
+.titulo {
+  padding: 1em;
+}
+
+.read{
+  color: rgb(76, 113, 242);
+  padding: 0.5em;
+}
+
+.banderaUSA {
+  padding: 2em;
+  padding-top: 4.8em;
+}
+
+.banderaUSA img {
+  width: 13em;
+}
+
+.safe {
+    padding: 2em;
+    padding-top: 1.5em;
+  }
+
+.safe img {
+    width: 10em;
