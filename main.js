@@ -23,3 +23,11 @@ fetch("./menu.html")
       .then(data => {
         document.querySelector("mapa").innerHTML = data;
       });
+
+      fetch("./grid2.html")
+        .then(response => {
+          return response.text()
+        })
+        .then(data => {
+          document.querySelector("grid2").innerHTML = data;
+        });
